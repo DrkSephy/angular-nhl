@@ -1,0 +1,1 @@
+An AngularJS web application built with the purpose of pulling data from the National Hockey League (NHL).
