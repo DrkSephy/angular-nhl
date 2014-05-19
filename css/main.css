@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+body {
+   background-color: #5dace9;
+}
+h1, h2, h3 {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.banner {
+    background-color: #0074cd;
+    color: #FFF;
+    height: 100px;
+}
+.banner h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+.main-frame {
+    background-color: #FFF;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: -30px;
+}
+.search-box {
+    line-height: 50px;
+    background-color: #333;
+    color: #FFF;
+    margin-bottom: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+.search-box label {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.episode-list {
+    list-style: none;
+    margin: 0px;
+}
+
+.episode-list h3 {
+    margin-top: 0px;
+}
+
+.episode-list .ratings {
+    line-height: 30px;
+    text-align: center;
+    background-color: #333;
+    color: #FFF;
+    margin-top: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.episode-list .fulldate {
+    margin: 5px;
+}
+
+.episode-list li {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: dotted 1px #5dace9;
+}
+
+.episode-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.show-info {
+    list-style: none;
+    margin: 0px;
+    padding: 10px;
+    background-color: #e1e1e1;
+    color: #333;
+    font-size: 16px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.show-info li {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: solid 1px #CCC;
+    line-height: 40px;
+}
+
+.show-info li:last-child {
+    border-bottom: none;
+}
+
+.show-info .genre {
+    margin-right: 5px;
+    cursor: pointer;
+}
