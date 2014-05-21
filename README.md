@@ -6,3 +6,4 @@ In order to start building this application, we must find a way to obtain data f
 
 * http://hfboards.hockeysfuture.com/showthread.php?p=79594853
 * http://riccomini.name/posts/game-time-baby/2012-09-29-streaming-live-sports-schedule-scores-stats-api/
+* http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/
