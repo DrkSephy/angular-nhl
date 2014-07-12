@@ -1,4 +1,9 @@
-An AngularJS web application built with the purpose of pulling data from the National Hockey League (NHL).
+A Web Application built using MEAN (MongoDB, Expressjs, Angularjs, Nodejs) for the sake of learning new technology.
+
+#### Goals
+* Learn to pull data from an API and build an express application
+* Store data into MongoDB for use by Angular
+* Render team data using Angularjs
 
 #### Research 
 
