@@ -4,7 +4,7 @@ nhlApp.factory('helloFactory', function($http) {
     return {
         get: function() {
             return $http({
-                url: '/api/helloworld',
+                url: '/api/hello',
                 method: 'GET'
             });
         }
