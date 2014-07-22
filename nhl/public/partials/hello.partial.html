@@ -1,1 +1,12 @@
-<p data-ng-repeat="data in pageData">{{ data }}</p>
+<div data-ng-repeat="playerData in pageData">
+    <p data-ng-repeat="player in playerData track by $index">
+        {{ player.name }}<br>
+        {{ player.position }}<br>
+        {{ player.number }}<br>
+        {{ player.age }}<br>
+        {{ player.weight }}<br>
+        {{ player.height }}<br>
+        {{ player.birthdate }}<br>
+        {{ player.birthplace }}<br>
+    </p>
+</div>
