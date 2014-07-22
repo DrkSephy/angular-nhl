@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-us" data-ng-app="nhlApp" data-ng-controller="nhlController">
+    <head>
+        <meta charset="utf-8">
+
+        <title data-ng-bind="pageTitle + ' | Angular NHL'">Angular NHL</title>
+
+        <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+
+        <script src="vendor/jquery/dist/jquery.min.js"></script>
+        <script src="vendor/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="vendor/angular/angular.js"></script>
+        <script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/nhlController.js"></script>
+        <script src="scripts/controllers/helloController.js"></script>
+        <script src="scripts/factories/helloFactory.js"></script>
+    </head>
+
+    <body>
+        <div data-ui-view></div>
+    </body>
+</html>

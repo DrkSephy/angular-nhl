@@ -1,0 +1,18 @@
+<div data-ng-repeat="playerData in pageData">
+    <div data-ng-repeat="player in playerData track by $index">
+        <div data-ng-if="player.name">
+            <ul>
+                <li><strong>{{ player.name }}</strong></li>
+                <ul>
+                    <li><strong>Position:</strong> {{ player.position }}</li>
+                    <li><strong>Number:</strong> {{ player.number }}</li>
+                    <li><strong>Age:</strong> {{ player.age }}</li>
+                    <li><strong>Weight:</strong> {{ player.weight }}</li>
+                    <li><strong>Height:</strong> {{ player.height }}</li>
+                    <li><strong>Birthplace:</strong> {{ player.birthdate }}</li>
+                    <li><strong>Birthdate:</strong> {{ player.birthplace }}</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</div>
