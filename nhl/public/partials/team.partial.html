@@ -1,8 +1,8 @@
 <form ng-submit="submitTeam()">
     <p>
         <strong>Team Name Abbreviation:</strong>
-        <input type="text" ng-model="teamAbbr" maxlength="3" required>
-        <button type="submit">Find team data</button>
+        <input type="text" ng-model="teamAbbr" pattern="[a-zA-Z]{3}" required>
+        <button type="submit" data-ng-disabled="teamAbbr.length !== 3">Find team data</button>
     </p>
 </form>
 
