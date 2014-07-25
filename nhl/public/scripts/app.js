@@ -5,12 +5,12 @@ var nhlApp = angular.module('nhlApp', [
 ])
 .config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
-        .state('hello', {
-            url: '/hello',
-            templateUrl: 'partials/hello.partial.html',
-            controller: 'helloController',
+        .state('team', {
+            url: '/team',
+            templateUrl: 'partials/team.partial.html',
+            controller: 'teamController',
             data: {
-                pageTitle: 'Hello'
+                pageTitle: 'Team Players Data'
             }
         });
 });
