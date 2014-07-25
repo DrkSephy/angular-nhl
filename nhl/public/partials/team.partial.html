@@ -1,5 +1,5 @@
-<div data-ng-repeat="playerData in pageData">
-    <div data-ng-repeat="player in playerData track by $index">
+<div data-ng-repeat="players in teamData">
+    <div data-ng-repeat="player in players track by $index">
         <div data-ng-if="player.name">
             <ul>
                 <li><strong>{{ player.name }}</strong></li>
