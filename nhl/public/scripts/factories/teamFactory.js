@@ -2,10 +2,13 @@
 
 nhlApp.factory('teamFactory', function($http) {
     return {
-        get: function() {
+        get: function(teamAbbr) {
             return $http({
                 url: '/api/team',
-                method: 'GET'
+                method: 'GET',
+                params: {
+                    teamAbbr: teamAbbr
+                }
             });
         }
     };

@@ -1,3 +1,11 @@
+<form ng-submit="submitTeam()">
+    <p>
+        <strong>Team Name Abbreviation:</strong>
+        <input type="text" ng-model="teamAbbr" maxlength="3" required>
+        <button type="submit">Find team data</button>
+    </p>
+</form>
+
 <div data-ng-repeat="players in teamData">
     <div data-ng-repeat="player in players track by $index">
         <div data-ng-if="player.name">

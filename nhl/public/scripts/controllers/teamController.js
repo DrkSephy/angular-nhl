@@ -2,7 +2,10 @@
 
 nhlApp.controller('teamController', function($scope, teamFactory) {
     $scope.teamData = {};
-    $scope.teamData = teamFactory.get().success(function(data) {
-        $scope.teamData = data;
-    });
+    
+    $scope.submitTeam = function() {
+        $scope.teamData = teamFactory.get($scope.teamAbbr).success(function(data) {
+            $scope.teamData = data;
+        });
+    }
 });
